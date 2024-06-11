@@ -54,9 +54,9 @@ export default function Home() {
   }, [history]);
 
   return (
-    <main className="h-screen bg-white p-6 flex flex-col">
-      <div className="flex flex-col gap-4 w-full items-center flex-grow max-h-full">
-        <h1 className=" text-2xl text-transparent font-semibold bg-clip-text bg-[#C74634]">
+    <main className="h-screen bg-white p-2 flex flex-col">
+      <div className="flex flex-col gap-2 w-full items-center flex-grow max-h-full">
+        <h1 className=" text-lg text-transparent font-semibold bg-clip-text bg-[#C74634]">
           Botacle AI Assistant
         </h1>
         <form
@@ -66,7 +66,7 @@ export default function Home() {
             handleClick();
           }}
         >
-          <div className="overflow-y-scroll flex flex-col gap-5 p-10 h-full">
+          <div className="overflow-y-scroll flex flex-col gap-5 p-2 h-full">
             {history.map((message: Message, idx) => {
               const isLastMessage = idx === history.length - 1;
               switch (message.role) {
