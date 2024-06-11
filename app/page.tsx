@@ -55,8 +55,8 @@ export default function Home() {
 
   return (
     <main className="h-screen bg-white p-6 flex flex-col">
-      <div className="flex flex-col gap-8 w-full items-center flex-grow max-h-full">
-        <h1 className=" text-4xl text-transparent font-semibold bg-clip-text bg-[#C74634]">
+      <div className="flex flex-col gap-4 w-full items-center flex-grow max-h-full">
+        <h1 className=" text-2xl text-transparent font-semibold bg-clip-text bg-[#C74634]">
           Botacle AI Assistant
         </h1>
         <form
