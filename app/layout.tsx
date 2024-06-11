@@ -5,8 +5,8 @@ import { Nunito } from "next/font/google";
 const inter = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "IND chat",
-  description: "Chatbot with custom knowledge base",
+  title: "Botacle AI Assistant",
+  description: "Oracle TODO Bot",
 };
 
 export default function RootLayout({
